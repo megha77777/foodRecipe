@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Kinds Of Food</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <img src="logo.svg" alt="">
+        <div class="right-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#"><img src="logo1.svg" alt=""> </a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="food-img">
+        <img src="food-img.svg" alt="">
+        <div class="trending">Trending now</div>
+        <div class="famous">Mike’s famous salad <br> with cheese</div>
+        <div class="by">By John Mike</div>
+    </section>
+    <section class="hero-section">
+        <h1>Search For Recipes</h1>
+        <div class="inputSearch">
+            <i class="fa-solid fa-magnifying-glass" style="color: #908989;"></i><input type="text" id="search" placeholder="Search for recipes...">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+
+        <div class="buttons">
+            <button id="all">All Recipes</button>
+            <button id="veg">Veg Recipes Only</button>
+            <button id="nonVeg">Non Veg Recipes</button>
+        </div>
+    </section>
+    <section class="category-section">
+        <div class="ratings">
+            <h1>Filters</h1>
+            <h2>Rating</h2>
+            <div class="rating">
+                <label for="ratingAbove">4 and above</label>
+                <input type="radio" name="rating" id="ratingAbove">
+            </div>
+            <div class="rating">
+                <label for="ratingBelow">Below 4</label>
+                <input type="radio" name="rating" id="ratingBelow">
+            </div>
+        </div>
+    <div id="recipeContainer">
+       
+    </div>
+    </section>
+    <footer>
+        <div class="col1">
+            <img src="logo.svg" alt="">
+        <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+        </div>
+        <div class="col2">
+            <div>
+                <h4>Company</h4>
+                <h5>Home</h5>
+                <a href="#">Explore</a>
+                <a href="#">Team</a>
+                <a href="#">About us</a>
+                <a href="#">Activity</a>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <h5>Blog</h5>
+                <a href="#">Use Cases</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Insights</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+        <div class="col3">
+            <img src="logo.svg" alt="">
+            <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+        </div>
+
+    </footer>
+    <div class="social-icons">
+        <div class="social-icon">
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+        </div>
+        <div class="social-icon">
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+        </div>
+        <div class="social-icon">
+            <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+        </div>
+        <div class="social-icon">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
